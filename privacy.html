@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Bolify</title>
+  <style>
+    :root {
+      --bg-color: #0F0E0C;
+      --card-bg: #1A1713;
+      --text-main: #EAE6DE;
+      --text-muted: #A8A296;
+      --gold: #F5B027;
+      --border-color: #2D271E;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+    .header {
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    .header h1 {
+      font-size: 28px;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+    .header p {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 20px;
+      color: var(--gold);
+      margin-top: 32px;
+      margin-bottom: 12px;
+    }
+    h3 {
+      font-size: 16px;
+      color: var(--text-main);
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+    p, li {
+      color: var(--text-main);
+      font-size: 15px;
+      margin-bottom: 12px;
+    }
+    ul {
+      margin-left: 24px;
+      margin-bottom: 16px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .contact-box {
+      background: rgba(245, 176, 39, 0.08);
+      border: 1px solid rgba(245, 176, 39, 0.3);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 32px;
+    }
+    a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Privacy Policy for Bolify</h1>
+      <p>Last updated: November 3, 2026</p>
+    </div>
+
+    <p>Bolify ("we," "our," or "us") is dedicated to protecting your privacy. This Privacy Policy describes how we collect, use, and safeguard your personal information when you use our mobile application <strong>Bolify</strong> (the "App").</p>
+
+    <h2>1. Information We Collect</h2>
+
+    <h3>A. Audio & Voice Data (Microphone Permission)</h3>
+    <p>When you participate in speaking exercises or engage in two-way voice conversations with Ava (our AI conversation partner), the App accesses your device microphone (<code>android.permission.RECORD_AUDIO</code>).</p>
+    <ul>
+      <li><strong>Purpose:</strong> Audio input is converted to text locally or securely processed to evaluate your pronunciation, fluency, and conversational grammar, and to generate conversational AI responses.</li>
+      <li><strong>Retention:</strong> We do <strong>not</strong> sell, rent, or trade your voice data to third parties, data brokers, or advertisers.</li>
+    </ul>
+
+    <h3>B. Account & Profile Information</h3>
+    <ul>
+      <li><strong>Account Credentials:</strong> If you register or authenticate via Supabase Auth (email or OAuth), we store your email address and unique user identifier.</li>
+      <li><strong>Learning Profile:</strong> Your speaking proficiency level (A1 to C2), user avatar, target learning goals, native language preference, daily streaks, and completed lesson days.</li>
+    </ul>
+
+    <h3>C. Learning Progress & Analytics</h3>
+    <p>We collect your fluency scores, words spoken, speaking duration, and lesson completion history to present your personalized learning statistics dashboard.</p>
+
+    <h3>D. Financial Transactions</h3>
+    <p>Gem packs are sold through <strong>Google Play Billing</strong>. Google processes the payment. We never receive your card, UPI or bank details. We receive only the purchase confirmation, product name and order reference so we can add gems to your account.</p>
+
+    <h3>E. Content You Report</h3>
+    <p>If you report a response from Ava, we store the reported text and your reason so we can review it and improve safety.</p>
+
+    <h2>2. How We Use Your Information</h2>
+    <p>We use the collected information exclusively to:</p>
+    <ul>
+      <li>Provide real-time AI speech evaluation, pronunciation feedback, and natural voice dialogues.</li>
+      <li>Maintain your speaking statistics, streak counters, and daily roadmap progression.</li>
+      <li>Synchronize your learning profile across devices using encrypted cloud storage (Supabase).</li>
+      <li>Verify purchases and prevent fraudulent activity.</li>
+    </ul>
+
+    <h2>3. Data Storage & Security</h2>
+    <p>All network communications between Bolify, Supabase, and AI inference endpoints are encrypted in transit using industry-standard <strong>TLS / HTTPS (SSL)</strong> protocols.</p>
+
+    <h2>4. Third-Party Service Providers</h2>
+    <p>The App integrates with trusted, privacy-compliant third-party providers:</p>
+    <ul>
+      <li><strong>Supabase:</strong> Cloud database and secure authentication.</li>
+      <li><strong>Google Play Services:</strong> App distribution, security, and Android framework capabilities.</li>
+      <li><strong>Google Play Billing:</strong> Payment processing for gem packs.</li>
+      <li><strong>Google (Gemini API), Groq and LiveKit:</strong> Your speech transcripts and messages are sent to these AI providers to generate Ava's replies and feedback. They process the data on our behalf and we do not allow them to use it for advertising.</li>
+    </ul>
+
+    <h2>5. Children's Privacy</h2>
+    <p>Bolify does not knowingly collect personally identifiable information from children under the age of 13. If you believe a child under 13 has provided personal data to us, please contact us immediately to have the data removed.</p>
+
+    <h2>6. Your Rights & Data Deletion</h2>
+    <p>You have full control over your data:</p>
+    <ul>
+      <li><strong>Reset Progress:</strong> You can reset your learning progress and statistics at any time inside the App's Profile tab.</li>
+      <li><strong>Delete in the app:</strong> Open Profile, then tap <em>Delete account</em>. Your account, profile, progress, call history and bookmarks are deleted immediately and permanently.</li>
+      <li><strong>Delete by email:</strong> Email <a href="mailto:manishjoshi182003@gmail.com?subject=Delete%20my%20Bolify%20account">manishjoshi182003@gmail.com</a> from your account email with the subject "Delete my Bolify account". We delete it within 7 days. Details: <a href="https://manish182003.github.io/bolify/delete-account.html">manish182003.github.io/bolify/delete-account.html</a>.</li>
+      <li><strong>What we keep:</strong> Google keeps its own purchase records as required by law. Anonymous usage logs that cannot identify you may be kept for up to 90 days.</li>
+    </ul>
+
+    <div class="contact-box">
+      <h2>7. Contact Us</h2>
+      <p>If you have any questions, feedback, or privacy concerns regarding Bolify, please contact us at:</p>
+      <ul>
+        <li><strong>Developer:</strong> Bolify Team</li>
+        <li><strong>Website:</strong> <a href="https://manish182003.github.io/bolify/" target="_blank">https://manish182003.github.io/bolify/</a></li>
+        <li><strong>Email:</strong> <a href="mailto:manishjoshi182003@gmail.com">manishjoshi182003@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
+
