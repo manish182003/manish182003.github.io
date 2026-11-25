@@ -92,7 +92,7 @@
   <div class="container">
     <div class="header">
       <h1>Privacy Policy for Bolify</h1>
-      <p>Last updated: November 23, 2026</p>
+      <p>Last updated: November 25, 2026</p>
     </div>
 
     <p>Bolify ("we," "our," or "us") is dedicated to protecting your privacy. This Privacy Policy describes how we collect, use, and safeguard your personal information when you use our mobile application <strong>Bolify</strong> (the "App").</p>
@@ -113,7 +113,7 @@
     </ul>
 
     <h3>C. Learning Progress & Analytics</h3>
-    <p>We collect your fluency scores, words spoken, speaking duration, and lesson completion history to present your personalized learning statistics dashboard. We also record how the App is used (screens opened, calls started and their length, lessons, reminders shown and opened, the subscription screen and its result), together with the app version, language setting, time zone and a random install ID. We use this to fix problems and improve the App, never for advertising.</p>
+    <p>We collect your fluency scores, words spoken, speaking duration, and lesson completion history to present your personalized learning statistics dashboard. We also record how the App is used (screens opened, calls started and their length, lessons, reminders shown and opened, the subscription screen and its result), together with the app version, language setting, time zone and a random install ID. We use this to fix problems and improve the App. Outside Europe (EEA, UK and Switzerland), a limited part of it (for example: app opened, call started, words spoken, subscription started) is also sent to Google Analytics for Firebase with a device or advertising ID, and is used to measure our ads and show them to people likely to use the App. We do not send your voice, your conversations, your name or your email to it. You can reset or delete the advertising ID in Android Settings › Privacy › Ads.</p>
 
     <h3>D. Financial Transactions</h3>
     <p>Gem packs and the <strong>Bolify Pro</strong> subscription are sold through <strong>Google Play Billing</strong>. Google processes the payment. We never receive your card, UPI or bank details. We receive only the purchase confirmation, product name, price, whether a subscription is active, and the order reference, so we can give you what you bought. Bolify Pro renews until you cancel it in Google Play › Subscriptions.</p>
@@ -122,11 +122,12 @@
     <p>If you report a response from Ava, we store the reported text and your reason so we can review it and improve safety.</p>
 
     <h2>2. How We Use Your Information</h2>
-    <p>We use the collected information exclusively to:</p>
+    <p>We use the collected information to:</p>
     <ul>
       <li>Provide real-time AI speech evaluation, pronunciation feedback, and natural voice dialogues.</li>
       <li>Maintain your speaking statistics, streak counters, and daily roadmap progression.</li>
       <li>Synchronize your learning profile across devices using encrypted cloud storage (Supabase).</li>
+      <li>Measure and improve our advertising, and find and fix crashes.</li>
       <li>Verify purchases and prevent fraudulent activity.</li>
     </ul>
 
@@ -138,6 +139,7 @@
     <ul>
       <li><strong>Supabase:</strong> Cloud database and secure authentication.</li>
       <li><strong>Google Play Services:</strong> App distribution, security, and Android framework capabilities.</li>
+      <li><strong>Google Analytics for Firebase and Firebase Crashlytics (Google):</strong> App usage measurement, ad measurement with Google Ads, and crash reports (device model, Android version, app state at the crash). Not switched on when your phone's region or time zone is European.</li>
       <li><strong>Google Play Billing:</strong> Payment processing for gem packs and subscriptions.</li>
       <li><strong>Google (Gemini API, including real-time voice), NVIDIA (build.nvidia.com) and Groq:</strong> During a voice call, your voice audio is streamed to Google to understand you and produce Ava's spoken reply in real time; transcripts and chat messages are sent to these AI providers (NVIDIA first, then Groq or Google as backups) to generate Ava's replies and feedback. They process the data on our behalf and we do not allow them to use it for advertising. While Bolify uses Google's free Gemini API tier, Google may use content submitted to it to improve its products, under Google's terms.</li>
     </ul>
